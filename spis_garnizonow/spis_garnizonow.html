@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Garnizony w Rzeczypospolitej Polskiej</title>
+    <meta
+      name="description"
+      content="Strona internetowa zawierające informacje o garnizonach w Polsce"
+    />
+    <meta name="keywords" content="garnizony, mapa garnizonów" />
+    <meta name="author" content="RJ Company" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../lib/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="./spis_garnizonow.css" />
+  </head>
+
+  <body>
+    <header>
+      <div id="logotype">
+        <h1 class="logo">
+          GEOPORTAL <br />
+          Garnizony w Rzeczypospolitej Polskiej
+        </h1>
+      </div>
+    </header>
+    <div id="menu">
+      <ul>
+        <li><a href="../index.html">Strona główna</a></li>
+        <li><a href="../mapa_garnizonow/mapa_garnizonow.html">Mapa garnizonów</a></li>
+        <li><a href="spis_garnizonow.html">Spis garnizonów</a></li>
+        <li><a href="../generowanie_uslug/generowanie_uslug.html">Generowanie usług</a></li>
+        <li><a href="../kontakt/kontakt.html">Kontakt</a></li>
+      </ul>
+    </div>
+
+    <div id="mapa_garnizonow"></div>
+    <script src="../lib/leaflet/leaflet.js"></script>
+    <script src="../lib/jquery-3.6.0.js"></script>
+    <script src="/spis_garnizonow/spis_garnizonow.js"></script>
+  </body>
+</html>

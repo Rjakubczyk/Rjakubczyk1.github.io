@@ -1,0 +1,122 @@
+h1.logo {
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-transform: none;
+  letter-spacing: 5px;
+  margin-top: 0px;
+  margin-left:1%;
+  margin-right:1%;
+  line-height: 85px;
+  opacity:0.8;
+
+  background-color: #efefef;
+}
+#logotype {
+  /* background-image: url("img/kompas2.jpeg"); */
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+body {
+  font-family: "EB Garamond";
+  font-size: 20px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("img/kompas2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: auto;
+  
+}
+
+li {
+  display: inline;
+  font-size: 22px;
+  padding: 0.5em;
+  text-align: center;
+  padding-left:15px;
+  padding-right:15px;
+  letter-spacing: 0.5px;
+  }
+#menu a {
+  color:black;
+  text-decoration: none;
+}
+#menu a:hover {
+  text-decoration: underline;
+}
+
+#content {
+  overflow: auto;
+}
+
+#menu,
+#feature,
+#footer {
+  margin: 1%;
+  opacity: 0.9;
+}
+.column1,
+.column2,
+.column3 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+  text-align: left;
+  text-align: justify;
+  opacity: 0.9;
+  
+
+  
+}
+.column3 {
+  margin-right: 0%;
+  
+}
+
+#menu,
+#footer {
+  background-color: #efefef;
+  padding: 0.5em 0;
+
+}
+
+#feature{
+  height: auto;
+  margin-bottom: 1em;
+  background-color: #efefef;
+  
+}
+.article {
+  height: auto;
+  margin-bottom: 1em;
+  background-color: #efefef;
+  
+}
+
+
+#feature {
+  padding: 0.5em;
+}
+
+
+#text1,
+#text2,
+#text3{
+  margin: 2%;
+  
+}
+#text1 a {
+  color:black;
+}
+#feature li {
+  display: inline;
+  font-size: 20px;
+  padding-left:15px;
+  padding-right:15px;
+}
+
